@@ -18,7 +18,7 @@ import { useSocketEvents } from "./hooks/useSocketEvents";
 import { useNumberTracker } from "./hooks/useNumberTracker";
 import HeaderPaper from "./components/HeaderPaper";
 
-const socket = io("http://localhost:3001");
+const socket = io("https://guess-the-number-production.up.railway.app/");
 const steps = ["Create/Join Room", "Submit Secret", "Start Guessing"];
 
 export default function App() {

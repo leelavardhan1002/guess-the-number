@@ -32,7 +32,7 @@ import {
 } from "@mui/icons-material";
 import io from "socket.io-client";
 
-const socket = io("http://localhost:3001");
+const socket = io("https://guess-the-number-production.up.railway.app/");
 
 const steps = ["Create/Join Room", "Submit Secret", "Start Guessing"];
 

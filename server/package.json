@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Guess the number game server",
   "main": "index.js",
+  "type": "module",
+  "private": true,
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
